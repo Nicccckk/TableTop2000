@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notes">
+        <item name="name">Default</item>
+        <item name="notesRecorded">First Scene: The Disaster</item>
+    </string-array>
+    <string-array name="notes">
+        <item name="name">The Sword Coast</item>
+        <item name="notesRecorded">First Scene: Candlekeep</item>
+    </string-array>
+</resources>

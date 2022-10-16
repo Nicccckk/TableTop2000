@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">TableTop2000</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--    Temporary Values    -->
+    <string name="world_clock_title">World Clock</string>
+    <string name="turn_order_title">Turn Order</string>
+    <string name="players_title">Players</string>
+    <string name="notes_title">Notes</string>
+    <string name="files_title">Files</string>
+    <string name="creatures_title">Creatures</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    Files Fragment strings    -->
+    <string name="WorldTitle">World:</string>
+    <string name="NotesTitle">Notes:</string>
+    <string name="CreaturesTitle">Creatures</string>
+    <!--    Notes Fragment strings  -->
+    <string name="NotesHint">Write notes here!</string>
+    <!--    World Clock Fragment strings    -->
+    <string name="DayCounterTitle">Day:</string>
+    <string name="DayCounterData">1</string>
+    <string name="TimeCounterTitle">Time:</string>
+    <string name="TimeCounterData">Morning</string>
+    <string name="RationsCounterTitle">Rations:</string>
+    <string name="RationsCounterData">0</string>
+
+    <string name="WorldClockTurnButton">Turn</string>
+    <string name="WorldClockUndoButton">Undo</string>
+    <string name="WorldClockRationsButton">Rations</string>
+
+    <!--    Alert Boxes Dialog      -->
+    <string name="notesAlertMessage">Create Name of Notes File</string>
+    <string name="notesAlertTitle">New Notes</string>
+    <string name="back">back</string>
+    <string name="wrong">wrong</string>
+    <string name="right">right</string>
+    <string name="done">done</string>
+
+
+</resources>

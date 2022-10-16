@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".WorldClock" android:id="@+id/WorldClockRestraint">
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/ClockButtons"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/tableLayout">
+
+        <TableRow android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView
+                    android:text="@string/DayCounterTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:id="@+id/DayCounterTitle" android:layout_weight="1"
+                    android:gravity="center"/>
+            <TextView
+                    android:text="@string/DayCounterData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:id="@+id/DayCounterData" android:layout_weight="1"
+                    android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView
+                    android:text="@string/TimeCounterTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:id="@+id/TimeCounterTitle" android:layout_weight="1"
+                    android:gravity="center"/>
+            <TextView
+                    android:text="@string/TimeCounterData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:id="@+id/TimeCounterData" android:layout_weight="1"
+                    android:gravity="center"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView
+                    android:text="@string/RationsCounterTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:id="@+id/RationsCounterTitle"
+                    android:layout_weight="1" android:gravity="center"/>
+            <TextView
+                    android:text="@string/RationsCounterData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:id="@+id/RationsCounterData"
+                    android:layout_weight="1" android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/ClockButtons"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/tableLayout">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" android:layout_weight="1">
+            <Button
+                    android:text="@string/WorldClockRationsButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" android:id="@+id/WorldClockRationsButton" android:layout_weight="1"/>
+            <Button
+                    android:text="@string/WorldClockUndoButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" android:id="@+id/WorldClockUndoButton" android:layout_weight="1"/>
+        </LinearLayout>
+        <Button
+                android:text="@string/WorldClockTurnButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" android:id="@+id/WorldClockTurnButton" android:layout_weight="1"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

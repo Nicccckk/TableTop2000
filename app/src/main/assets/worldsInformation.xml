@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="world">
+        <item name="name">Default</item>
+        <item name="day">1</item>
+        <item name="time">Morning</item>
+        <item name="rations">0</item>
+    </string-array>
+    <string-array name="world">
+        <item name="name">Earth</item>
+        <item name="day">211</item>
+        <item name="time">Afternoon</item>
+        <item name="rations">20</item>
+    </string-array>
+</resources>

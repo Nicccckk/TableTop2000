@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="creatures">
+        <item name="name">Goblin</item>
+        <item name="health">16</item>
+        <item name="ac">10</item>
+        <item name="resistances">none</item>
+    </string-array>
+    <string-array name="creatures">
+        <item name="name">Owlbear</item>
+        <item name="health">53</item>
+        <item name="ac">16</item>
+        <item name="resistances">something</item>
+    </string-array>
+</resources>
